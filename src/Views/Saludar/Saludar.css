@@ -1,0 +1,9 @@
+.saludar__title{
+    @apply flex justify-center items-center mt-8 font-bold text-xl uppercase;
+}
+.saludar__label{
+    @apply mx-4 text-lg;
+}
+.saludar__main input{
+    @apply rounded border-blue-600 border placeholder-black pl-2 focus:border-red-600 border-transparent focus:outline-none;
+}

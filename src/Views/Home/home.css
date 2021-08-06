@@ -1,0 +1,15 @@
+.home__container{
+    @apply flex justify-center my-4;
+}
+.home__title--h1{
+    @apply text-2xl font-bold uppercase;
+}
+.home__main-content{
+    @apply flex justify-around my-6;
+}
+.home__main-content--button{
+    @apply text-xl font-bold uppercase bg-blue-500 p-4 text-white;
+}
+.home__main-content--button:hover{
+    @apply bg-blue-700;
+}
